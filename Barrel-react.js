@@ -709,7 +709,7 @@ var BarrelTabs = React.createClass({
                             appName={serviceTemplate.getAttribute("name")} />
                     </div>
                     <div className="tab-pane" id="editor">
-                        <BarrelEditor typeDocs={csar.getTypeDocuments()} onChange={() => this.forceUpdate()} />
+                        <BarrelEditor typeDocs={csar.getTypeDocuments()} onChange={() => {}} />
                     </div>
                     <div className="tab-pane" id="analyser">
                         <div>

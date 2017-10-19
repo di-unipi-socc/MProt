@@ -336,8 +336,9 @@ module Analysis {
 
                 for (let dst = 0; dst < states.length; dst++) {
                     // ! used to abuse NaN comparison (which always compares as false)
-                    if (!(costs[src][dst] <= costs[src][via] + costs[via][dst])) {
-                        costs[src][dst] = costs[src][via] + costs[via][dst];
+                    const newCost = costs[src][via] + costs[via][dst];
+                    if (!isNaN(newCost) && !(costs[src][dst] <= newCost)) {
+                        costs[src][dst] = newCost;
                         steps[src][dst] = steps[src][via];
                     }
                 }

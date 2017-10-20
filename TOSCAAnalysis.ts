@@ -71,7 +71,7 @@ module TOSCAAnalysis {
         var visited : Utils.Set = {};
         function visit(s) {
             if (visiting[s])
-                throw "Cycle in fault handlers";
+                throw `Cycle in fault handlers detected at ${s}`;
             if (visited[s])
                 return;
             visiting[s] = true;
@@ -101,7 +101,7 @@ module TOSCAAnalysis {
         return top;
     }
 
-    function computeFaultHandlers(states: Utils.Map<ManagementProtocol.State>, handlers: ManagementProtocol.FaultHandler[]) {
+    function computeFaultHandlers(states: Utils.Map<ManagementProtocol.State>, handlers: ManagementProtocol.FaultHandler[], issues: any[]) {
         var reqs: Utils.Map<Utils.Set> = {};
         var edges: Utils.Map<Utils.Set> = {};
         var reachable: Utils.Map<Utils.Set> = {};
@@ -118,16 +118,20 @@ module TOSCAAnalysis {
             var source = states[handler.source];
             var target = states[handler.target];
             if (!Utils.setContains(source.getCaps(), target.getCaps()))
-                throw "Fault handler increases capabilities";
+                issues.push({ 'Well-formedness': `Fault handler ${handler.source} -> ${handler.target} increases capabilities` });
             else if (!Utils.setContains(reqs[handler.source], reqs[handler.target]))
-                throw "Fault handler increases requirements";
+                issues.push({ 'Well-formedness': `Fault handler ${handler.source} -> ${handler.target} increases requirements` });
             else if (Utils.setEquals(reqs[handler.source], reqs[handler.target]))
-                throw "Fault handler preserves requirements";
+                issues.push({ 'Well-formedness': `Fault handler ${handler.source} -> ${handler.target} preserves requirements` });
             else
                 reachable[handler.source][handler.target] = true;
         });
 
-        handlerReachability(reachable);
+        try {
+            handlerReachability(reachable);
+        } catch (e) {
+            issues.push({ 'Well-formedness': e });
+        }
         var top = handlerTop(reqs, reachable);
 
         for (var s in edges)
@@ -141,7 +145,7 @@ module TOSCAAnalysis {
             for (var s1 in edges[s])
                 for (var s2 in edges[s1])
                     if (!(s2 in edges[s]))
-                        throw "Fault handlers are not transitive";
+                        issues.push({ 'Race freedom': `Fault handlers ${s} -> ${s1} -> ${s2} are not transitive` });
 
         // Check outgoing handlers
         for (var s in edges)
@@ -150,8 +154,10 @@ module TOSCAAnalysis {
                     if (s1 == s2)
                         continue;
 
+                    if (Utils.setEquals(reqs[s1], reqs[s2]))
+                        issues.push({ 'Determinism': `Fault handlers ${s} -> ${s1}/${s2} are not deterministic` });
                     if (!edges[s1][s2] && Utils.setContains(reqs[s1], reqs[s2]))
-                            throw "Fault handlers are not co-transitive";
+                        issues.push({ 'Race freedom': `Fault handlers ${s} -> ${s1} -?> ${s2} are not co-transitive` });
                     var intersection = Utils.setIntersection(reqs[s1], reqs[s2]);
                     var union = Utils.setUnion(reqs[s1], reqs[s2]);
                     var foundIntersection = false;
@@ -161,9 +167,9 @@ module TOSCAAnalysis {
                         foundIntersection = foundIntersection || Utils.setContains(intersection, reqs[s3]);
                     }
                     if (!foundUnion)
-                        throw "Nondeterministic fault handlers (missing union)";
+                        issues.push({ 'Race freedom': `Nondeterministic fault handlers ${s} -> ${s1}|${s2} (missing union)` });
                     if (!foundIntersection)
-                        throw "Nondeterministic fault handlers (missing intersection)";
+                        issues.push({ 'Race freedom': `Nondeterministic fault handlers ${s} -> ${s1}|${s2} (missing intersection)` });
                 }
 
         for (var s in edges)
@@ -175,17 +181,19 @@ module TOSCAAnalysis {
         return handleReq;
     }
 
-    function nodeTemplateToNode(nodeTemplate: Element, types: Utils.Map<Element>) {
+    function nodeTemplateToNode(nodeTemplate: Element, types: Utils.Map<Element>, sharedIssues: any[]) {
         var capNames = toscaMap(nodeTemplate, "Capability", "name");
         var reqNames = toscaMap(nodeTemplate, "Requirement", "name");
         var typeName = nodeTemplate.getAttribute("type").split(':')[1]
         var mProt = new ManagementProtocol.ManagementProtocol(types[typeName]);
         var initialState = mProt.getInitialState();
 
+        var issues = [];
+
         var states: Utils.Map<Analysis.State> = {};
         var nodeOps: Utils.Set = {};
         var protStates = mProt.getStates();
-        var handlers = computeFaultHandlers(protStates, mProt.getFaultHandlers());
+        var handlers = computeFaultHandlers(protStates, mProt.getFaultHandlers(), issues);
         for (var s in protStates) {
             var state = protStates[s];
             var caps = mapSet(state.getCaps(), capNames.data);
@@ -198,9 +206,11 @@ module TOSCAAnalysis {
                 var opReqs = mapSet(trans[j].reqs, reqNames.data)
                 var prevOp = ops[opName];
                 if (prevOp) {
-                    if (prevOp.to != trans[j].target)
-                        throw "Nondeterministic operation detected";
-                    prevOp.reqs.push(opReqs);
+                    if (prevOp.to != trans[j].target) {
+                        issues.push({ 'Determinism': `Nondeterministic operation ${s} -[${opName}]-> ${trans[j].target} / ${prevOp.to}` });
+                    } else {
+                        prevOp.reqs.push(opReqs);
+                    }
                 } else {
                     ops[opName] = new Analysis.Operation(trans[j].target, [opReqs]);
                 }
@@ -209,6 +219,8 @@ module TOSCAAnalysis {
             states[s] = new Analysis.State(isAlive, caps, reqs, ops, mapKeys(handlers[s] || {}, reqNames.data));
         }
 
+        sharedIssues.push(...issues);
+
         return new UIData(new Analysis.Node(
             initialState,
             typeName,
@@ -216,13 +228,15 @@ module TOSCAAnalysis {
             mapSet(mProt.getReqs(), reqNames.data),
             nodeOps,
             states,
-            initialState),
+            issues.length === 0 ? initialState : null),
             mergeNames(reqNames.uiNames, capNames.uiNames));
     }
 
     export function serviceTemplateToApplication(serviceTemplate: Element, types: Utils.Map<Element>, withHardReset: boolean) {
         var nodeTemplates = TOSCA.getToscaElements(serviceTemplate, "NodeTemplate");
         var relationships = TOSCA.getToscaElements(serviceTemplate, "RelationshipTemplate");
+
+        var issues = [];
 
         var reqNodeId: Utils.Map<string> = {};
         var capNodeId: Utils.Map<string> = {};
@@ -235,7 +249,7 @@ module TOSCAAnalysis {
         for (var i = 0; i < nodeTemplates.length; i++) {
             var template = <HTMLElement>nodeTemplates[i];
             var name = template.getAttribute("name");
-            var n = nodeTemplateToNode(template, types);
+            var n = nodeTemplateToNode(template, types, issues);
             var nodeId = template.id;
             nodes[nodeId] = n.data;
             uiNames = mergeNames(uiNames, n.uiNames);
@@ -261,7 +275,7 @@ module TOSCAAnalysis {
             }
         }
 
-        return new UIData(new Analysis.Application(nodes, binding, containedBy, withHardReset), uiNames);
+        return [issues, new UIData(new Analysis.Application(nodes, binding, containedBy, withHardReset), uiNames)];
     }
 
     export function uiApplicationToElement(app: UIData<Analysis.Application>) {

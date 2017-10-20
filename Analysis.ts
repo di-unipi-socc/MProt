@@ -67,7 +67,8 @@ module Analysis {
                 }
             }
 
-            this.state = this.states[this.stateId];
+            if (this.stateId)
+                this.state = this.states[this.stateId];
         }
 
         performOp(opId: string) {
@@ -122,6 +123,7 @@ module Analysis {
         public faults: Utils.Set = {};
         public isConsistent = true;
         public isContainmentConsistent = true;
+        public canRun = true;
 
         constructor(public nodes: Utils.Map<Node>,
                     public binding: Utils.Map<string>,
@@ -132,10 +134,14 @@ module Analysis {
                 const node = nodes[nodeId];
                 const nodeState = node.state;
                 states.push(nodeId + "=" + node.stateId);
-                this.reqs = Utils.setUnion(this.reqs, nodeState.reqs);
-                this.caps = Utils.setUnion(this.caps, nodeState.caps);
-                if (nodeState.isAlive && (nodeId in containedBy))
-                    this.isContainmentConsistent = this.isContainmentConsistent && nodes[containedBy[nodeId]].state.isAlive;
+                if (nodeState) {
+                    this.reqs = Utils.setUnion(this.reqs, nodeState.reqs);
+                    this.caps = Utils.setUnion(this.caps, nodeState.caps);
+                    if (nodeState.isAlive && (nodeId in containedBy))
+                        this.isContainmentConsistent = this.isContainmentConsistent && nodes[containedBy[nodeId]].state.isAlive;
+                } else {
+                    this.canRun = false;
+                }
 
                 for (const r in node.reqs)
                     this.reqNodeId[r] = nodeId;

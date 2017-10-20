@@ -619,6 +619,7 @@ var BarrelEditor = React.createClass({
                   value={this.state.name}
                   items={this.props.typeDocs}
                   onChange={newType => this.setType(newType)}/>
+                {this.props.issues.map((x, i) => (<span key={i}>✘ {x}</span>))}
                 <a className="btn btn-info" onClick={exportXMLDoc}>Show XML</a>
               </div>
               <div className="form-horizontal">
@@ -697,7 +698,42 @@ var BarrelTabs = React.createClass({
         var csar = this.props.csar;
         var serviceTemplate = csar.get("ServiceTemplate")[0].element;
         var types = csar.getTypes();
-        var uiData = TOSCAAnalysis.serviceTemplateToApplication(serviceTemplate, types, this.state.hardReset);
+        var [issues, uiData] = TOSCAAnalysis.serviceTemplateToApplication(serviceTemplate, types, this.state.hardReset);
+
+        const issueKeys = {};
+        const issuesStrings = [];
+        for (const o of issues) {
+            const key = Object.keys(o)[0];
+            issueKeys[key] = true;
+            issuesStrings.push(`${key}: ${o[key]}`);
+        }
+
+        var analyser = issues.length !== 0
+            ? (
+                <div>
+                    <h1>Invalid application</h1>
+                    The application cannot be analysed because:
+                    <ul>
+                    { issuesStrings.map((o, i) => (<li key={i}>{o}</li>)) }
+                    </ul>
+                </div>
+            )
+            : (
+                <div>
+                    <div>
+                        <h1 className="bolded">Options</h1>
+                        <Opt
+                            caption="Hard recovery"
+                            enabled={this.state.hardReset}
+                            onClick={() => this.setState({ hardReset: !this.state.hardReset })} />
+                    </div>
+                    <br />
+                    <Analyser
+                        uiData={uiData}
+                        reachable={Analysis.reachable(uiData.data)}
+                        plans={Analysis.plans(uiData.data)} />
+                </div>
+            );
 
         return (
             <div className="container" style={{ backgroundColor: "white" }}>
@@ -709,21 +745,10 @@ var BarrelTabs = React.createClass({
                             appName={serviceTemplate.getAttribute("name")} />
                     </div>
                     <div className="tab-pane" id="editor">
-                        <BarrelEditor typeDocs={csar.getTypeDocuments()} onChange={() => this.forceUpdate()} />
+                        <BarrelEditor issues={Object.keys(issueKeys)} typeDocs={csar.getTypeDocuments()} onChange={() => this.forceUpdate()} />
                     </div>
                     <div className="tab-pane" id="analyser">
-                        <div>
-                            <h1 className="bolded">Options</h1>
-                            <Opt
-                                caption="Hard recovery"
-                                enabled={this.state.hardReset}
-                                onClick={() => this.setState({ hardReset: !this.state.hardReset })} />
-                        </div>
-                        <br />
-                        <Analyser
-                          uiData={uiData}
-                          reachable={Analysis.reachable(uiData.data)}
-                          plans={Analysis.plans(uiData.data)} />
+                        {analyser}
                     </div>
                 </div>
             </div>

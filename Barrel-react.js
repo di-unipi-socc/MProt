@@ -418,7 +418,7 @@ var BarrelFaultRemover = React.createClass({
     },
 
     setSource: function(source) {
-        thi.state.source = source;
+        this.state.source = source;
         this.setState(this.makeState(this.props, this.state));
     },
 

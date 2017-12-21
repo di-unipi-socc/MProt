@@ -2,7 +2,6 @@
   <img src="img/barrel-logo.png" width="300"/>
 </p>
 
--------
 
 ## What is Barrel?
 Barrel is a web-based application that permits ediiting and analysing fault-aware management protocols in composite applications specified in [TOSCA](http://docs.oasis-open.org/tosca/TOSCA/v1.0/TOSCA-v1.0.html).

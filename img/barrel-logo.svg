@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generato da Microsoft Visio, esportazione SVG logo.svg Pagina 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.22373in" height="1.97758in"
+		viewBox="0 0 304.109 142.386" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1040" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#6c3f06;font-family:Berlin Sans FB Demi;font-size:2.50001em}
+		.st3 {stroke:#6c3f06;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st5 {fill:#6c3f06;stroke:#6c3f06;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st6 {fill:#6c3f06;stroke:#6c3f06;stroke-linecap:butt;stroke-width:0.5}
+		.st7 {fill:#6c3f06;stroke:#6c3f06;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina 1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Connettore" v:index="0"/>
+		<g id="shape122-1" v:mID="122" v:groupContext="shape" transform="translate(-2.39503,70.8179) rotate(-60)">
+			<title>Foglio.122</title>
+			<desc>Barrel</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="132.386" width="152.01" height="20"/>
+			<rect x="0" y="122.386" width="152" height="20" class="st1"/>
+			<text x="34.65" y="141.39" class="st2" v:langID="1040"><v:paragraph v:horizAlign="1"/><v:tabList/>Barrel</text>		</g>
+		<g id="shape117-4" v:mID="117" v:groupContext="shape" v:layerMember="0" transform="translate(38.7489,-99.4789)">
+			<title>Connettore dinamico.117</title>
+			<path d="M0 142.39 C11.16 123 31.33 112.98 51.42 114.59 C73.01 116.32 94.5 131.51 106.88 159.05" class="st3"/>
+		</g>
+		<g id="shape1-7" v:mID="1" v:groupContext="shape" transform="translate(30.0655,-13.9813)">
+			<title>Cerchio</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 85.69 A56.6929 56.6929 0 0 1 113.39 85.69 A56.6929 56.6929 0 1 1 0 85.69 Z" class="st4"/>
+		</g>
+		<g id="shape2-9" v:mID="2" v:groupContext="shape" transform="translate(157.625,-13.9813)">
+			<title>Cerchio.2</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 85.69 A56.6929 56.6929 0 0 1 113.39 85.69 A56.6929 56.6929 0 1 1 0 85.69 Z" class="st4"/>
+		</g>
+		<g id="shape8-11" v:mID="8" v:groupContext="shape" transform="translate(71.1929,-44.6185) rotate(30)">
+			<title>Saetta</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M31.87 123.82 L45.94 142.39 L22.33 128.6 L26.42 126.31 L11.44 117.5 L16.63 114.58 L0 104.87 L18.7 96.44 L27.78
+						 109.46 L24.18 110.81 L36.15 122.25 L31.87 123.82 Z" class="st5"/>
+		</g>
+		<g id="group57-13" transform="translate(266.191,-31.2726)" v:mID="57" v:groupContext="group">
+			<title>Foglio.57</title>
+			<g id="shape26-14" v:mID="26" v:groupContext="shape">
+				<title>Configura.161</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Icon)"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M34.32 128.45 C33.59 128.14 31.28 127.16 31.28 127.16 L31.43 125.23 L31.55 123.61 L31.34 120.52 L32.87 119.63
+							 C32.87 119.63 33.64 119.32 34.37 119.02 C33.85 117.75 33.63 117.23 33.11 115.96 C32.38 116.26 29.99
+							 117.25 29.99 117.25 L28.8 115.76 C28.22 115.04 27.51 114.36 26.62 113.67 L25.22 112.58 L25.79 110.86
+							 C25.79 110.86 26.12 110.05 26.44 109.28 C25.17 108.75 24.65 108.54 23.38 108.02 C23.05 108.82 22.05
+							 111.27 22.05 111.27 L20.19 111.09 C19.24 110.99 18.26 111.01 17.27 111.15 L15.5 111.38 L14.67 109.76
+							 C14.67 109.76 14.31 108.9 13.96 108.06 C12.7 108.59 12.18 108.81 10.92 109.34 C11.29 110.23 12.35 112.74
+							 12.35 112.74 L10.91 113.93 C10.23 114.5 9.6 115.17 8.97 115.98 L7.89 117.39 L6.16 116.83 C6.16 116.83
+							 5.23 116.46 4.3 116.08 C3.79 117.36 3.58 117.88 3.07 119.16 C4.01 119.53 6.52 120.54 6.52 120.54 C6.52
+							 120.54 6.36 123.38 6.35 123.61 C6.36 123.81 6.4 124.45 6.4 124.46 C6.4 124.46 6.55 125.96 6.55 125.96
+							 L5.65 126.78 C5.37 127.06 5.27 127.13 3.03 128.01 C3.52 129.29 3.73 129.82 4.23 131.1 C5.16 130.73 7.78
+							 129.71 7.78 129.71 L9.14 131.56 C9.55 132.08 10.13 132.66 10.84 133.26 L12.17 134.38 L11.58 136.04 C11.58
+							 136.04 11.18 136.98 10.78 137.9 C12.04 138.45 12.55 138.67 13.81 139.21 C14.18 138.36 15.27 135.84 15.27
+							 135.84 L17.17 136.1 C18.07 136.23 19.03 136.25 20.04 136.16 L21.77 136.01 L22.54 137.61 C22.54 137.61
+							 22.89 138.49 23.23 139.34 C24.5 138.83 25.03 138.63 26.3 138.12 C25.98 137.33 24.97 134.81 24.97 134.81
+							 L26.88 133.44 C27.42 133.01 28.03 132.38 28.67 131.61 L29.78 130.26 L31.47 130.84 C31.47 130.84 32.27
+							 131.17 33.04 131.5 C33.57 130.23 33.79 129.71 34.32 128.45 ZM33.74 125.53 C33.74 125.53 33.74 125.6
+							 33.73 125.66 C34.05 125.8 37.38 127.2 37.38 127.2 L34.28 134.56 C34.28 134.56 30.88 133.12 30.56 132.99
+							 C30.52 133.04 30.48 133.09 30.48 133.09 C29.74 133.99 29.01 134.72 28.24 135.34 C28.24 135.34 27.99
+							 135.52 27.83 135.64 C27.96 135.98 29.34 139.42 29.34 139.42 L21.93 142.39 C21.93 142.39 20.5 138.8 20.37
+							 138.48 C20.31 138.49 20.24 138.49 20.24 138.49 C19.05 138.6 17.91 138.57 16.84 138.42 C16.84 138.42
+							 16.77 138.41 16.71 138.4 C16.57 138.73 15.03 142.29 15.03 142.29 L7.71 139.12 C7.71 139.12 9.29 135.45
+							 9.43 135.13 C9.38 135.09 9.33 135.05 9.33 135.05 C8.5 134.34 7.82 133.66 7.25 132.94 C7.25 132.94 7.08
+							 132.7 6.96 132.54 C6.62 132.67 2.9 134.12 2.9 134.12 L0 126.69 C0 126.69 3.99 125.13 3.99 125.12 C3.99
+							 125.12 4.06 125.1 4.11 125.08 C4.09 124.89 4.07 124.61 4.07 124.61 L4 123.62 C4 123.62 4.07 122.37 4.09
+							 122.08 C3.77 121.96 0.03 120.46 0.03 120.46 L3 113.04 C3 113.04 6.71 114.53 7.04 114.66 C7.07 114.61
+							 7.12 114.56 7.12 114.56 C7.84 113.61 8.6 112.81 9.42 112.13 C9.42 112.13 9.47 112.09 9.52 112.05 C9.38
+							 111.73 7.85 108.1 7.85 108.1 L15.2 104.99 C15.2 104.99 16.69 108.52 16.83 108.84 C16.89 108.84 16.96
+							 108.83 16.96 108.83 C18.13 108.67 19.29 108.65 20.42 108.76 C20.42 108.76 20.48 108.77 20.55 108.77
+							 C20.68 108.45 22.11 104.97 22.11 104.97 L29.48 108 C29.48 108 28.08 111.42 27.95 111.75 C28 111.78 28.05
+							 111.83 28.05 111.83 C29.09 112.63 29.93 113.44 30.61 114.29 C30.61 114.29 30.66 114.36 30.71 114.42
+							 C31.04 114.29 34.38 112.91 34.38 112.91 L37.42 120.29 C37.42 120.29 34.08 121.66 33.76 121.8 C33.77
+							 121.86 33.77 121.93 33.77 121.93 C33.85 122.57 33.88 123.11 33.88 123.61 C33.88 124.19 33.84 124.8 33.74
+							 125.53 ZM22.08 127.56 C24.25 125.83 24.6 122.66 22.87 120.49 C21.13 118.33 17.97 117.97 15.81 119.71
+							 C13.64 121.44 13.29 124.6 15.02 126.77 C16.75 128.94 19.91 129.29 22.08 127.56 ZM19.76 116.31 C21.71
+							 116.53 23.47 117.5 24.69 119.03 C27.23 122.21 26.71 126.85 23.54 129.38 C22.01 130.61 20.08 131.17 18.13
+							 130.95 C16.17 130.74 14.42 129.77 13.19 128.23 C12.11 126.88 11.59 125.25 11.59 123.64 C11.59 121.48
+							 12.53 119.33 14.35 117.88 C15.88 116.65 17.8 116.09 19.76 116.31 Z" class="st6"/>
+			</g>
+			<g id="shape27-16" v:mID="27" v:groupContext="shape" transform="translate(21.1384,-27.5771)">
+				<title>Quadrato</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape31-18" v:mID="31" v:groupContext="shape" transform="translate(28.4275,-21.1384)">
+				<title>Quadrato.31</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape32-20" v:mID="32" v:groupContext="shape" transform="translate(27.4961,-9.47582)">
+				<title>Quadrato.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape33-22" v:mID="33" v:groupContext="shape" transform="translate(21.1384,-2.4297)">
+				<title>Quadrato.33</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape34-24" v:mID="34" v:groupContext="shape" transform="translate(9.07087,-2.83465)">
+				<title>Quadrato.34</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape35-26" v:mID="35" v:groupContext="shape" transform="translate(3.28009,-10.5692)">
+				<title>Quadrato.35</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape36-28" v:mID="36" v:groupContext="shape" transform="translate(3.28009,-21.1384)">
+				<title>Quadrato.36</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape37-30" v:mID="37" v:groupContext="shape" transform="translate(9.71879,-27.5771)">
+				<title>Quadrato.37</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape38-32" v:mID="38" v:groupContext="shape" transform="translate(9.71879,-23.5681)">
+				<title>Quadrato.38</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape39-34" v:mID="39" v:groupContext="shape" transform="translate(6.49944,-21.1384)">
+				<title>Quadrato.39</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape40-36" v:mID="40" v:groupContext="shape" transform="translate(4.88977,-17.0079)">
+				<title>Quadrato.40</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape41-38" v:mID="41" v:groupContext="shape" transform="translate(4.88977,-12.9989)">
+				<title>Quadrato.41</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape42-40" v:mID="42" v:groupContext="shape" transform="translate(4.88977,-12.9989)">
+				<title>Quadrato.42</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape43-42" v:mID="43" v:groupContext="shape" transform="translate(7.28909,-17.0079)">
+				<title>Quadrato.43</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape44-44" v:mID="44" v:groupContext="shape" transform="translate(7.28909,-12.9989)">
+				<title>Quadrato.44</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape45-46" v:mID="45" v:groupContext="shape" transform="translate(7.28909,-10.5692)">
+				<title>Quadrato.45</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape46-48" v:mID="46" v:groupContext="shape" transform="translate(9.71879,-6.56018)">
+				<title>Quadrato.46</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape47-50" v:mID="47" v:groupContext="shape" transform="translate(13.8493,-6.56018)">
+				<title>Quadrato.47</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape48-52" v:mID="48" v:groupContext="shape" transform="translate(15.4286,-6.35772)">
+				<title>Quadrato.48</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape49-54" v:mID="49" v:groupContext="shape" transform="translate(21.1384,-6.56018)">
+				<title>Quadrato.49</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape50-56" v:mID="50" v:groupContext="shape" transform="translate(23.5681,-10.5692)">
+				<title>Quadrato.50</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape51-58" v:mID="51" v:groupContext="shape" transform="translate(23.7705,-14.4567)">
+				<title>Quadrato.51</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape52-60" v:mID="52" v:groupContext="shape" transform="translate(26.4837,-15.0641)">
+				<title>Quadrato.52</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape53-62" v:mID="53" v:groupContext="shape" transform="translate(24.216,-21.1384)">
+				<title>Quadrato.53</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape54-64" v:mID="54" v:groupContext="shape" transform="translate(21.1384,-23.5681)">
+				<title>Quadrato.54</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape55-66" v:mID="55" v:groupContext="shape" transform="translate(17.8583,-26.7267)">
+				<title>Quadrato.55</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape56-68" v:mID="56" v:groupContext="shape" transform="translate(15.4286,-24.7829)">
+				<title>Quadrato.56</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+		</g>
+		<g id="group58-70" transform="translate(227.073,-39.7766)" v:mID="58" v:groupContext="group">
+			<title>Foglio.58</title>
+			<g id="shape59-71" v:mID="59" v:groupContext="shape">
+				<title>Configura.161</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Icon)"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M34.32 128.45 C33.59 128.14 31.28 127.16 31.28 127.16 L31.43 125.23 L31.55 123.61 L31.34 120.52 L32.87 119.63
+							 C32.87 119.63 33.64 119.32 34.37 119.02 C33.85 117.75 33.63 117.23 33.11 115.96 C32.38 116.26 29.99
+							 117.25 29.99 117.25 L28.8 115.76 C28.22 115.04 27.51 114.36 26.62 113.67 L25.22 112.58 L25.79 110.86
+							 C25.79 110.86 26.12 110.05 26.44 109.28 C25.17 108.75 24.65 108.54 23.38 108.02 C23.05 108.82 22.05
+							 111.27 22.05 111.27 L20.19 111.09 C19.24 110.99 18.26 111.01 17.27 111.15 L15.5 111.38 L14.67 109.76
+							 C14.67 109.76 14.31 108.9 13.96 108.06 C12.7 108.59 12.18 108.81 10.92 109.34 C11.29 110.23 12.35 112.74
+							 12.35 112.74 L10.91 113.93 C10.23 114.5 9.6 115.17 8.97 115.98 L7.89 117.39 L6.16 116.83 C6.16 116.83
+							 5.23 116.46 4.3 116.08 C3.79 117.36 3.58 117.88 3.07 119.16 C4.01 119.53 6.52 120.54 6.52 120.54 C6.52
+							 120.54 6.36 123.38 6.35 123.61 C6.36 123.81 6.4 124.45 6.4 124.46 C6.4 124.46 6.55 125.96 6.55 125.96
+							 L5.65 126.78 C5.37 127.06 5.27 127.13 3.03 128.01 C3.52 129.29 3.73 129.82 4.23 131.1 C5.16 130.73 7.78
+							 129.71 7.78 129.71 L9.14 131.56 C9.55 132.08 10.13 132.66 10.84 133.26 L12.17 134.38 L11.58 136.04 C11.58
+							 136.04 11.18 136.98 10.78 137.9 C12.04 138.45 12.55 138.67 13.81 139.21 C14.18 138.36 15.27 135.84 15.27
+							 135.84 L17.17 136.1 C18.07 136.23 19.03 136.25 20.04 136.16 L21.77 136.01 L22.54 137.61 C22.54 137.61
+							 22.89 138.49 23.23 139.34 C24.5 138.83 25.03 138.63 26.3 138.12 C25.98 137.33 24.97 134.81 24.97 134.81
+							 L26.88 133.44 C27.42 133.01 28.03 132.38 28.67 131.61 L29.78 130.26 L31.47 130.84 C31.47 130.84 32.27
+							 131.17 33.04 131.5 C33.57 130.23 33.79 129.71 34.32 128.45 ZM33.74 125.53 C33.74 125.53 33.74 125.6
+							 33.73 125.66 C34.05 125.8 37.38 127.2 37.38 127.2 L34.28 134.56 C34.28 134.56 30.88 133.12 30.56 132.99
+							 C30.52 133.04 30.48 133.09 30.48 133.09 C29.74 133.99 29.01 134.72 28.24 135.34 C28.24 135.34 27.99
+							 135.52 27.83 135.64 C27.96 135.98 29.34 139.42 29.34 139.42 L21.93 142.39 C21.93 142.39 20.5 138.8 20.37
+							 138.48 C20.31 138.49 20.24 138.49 20.24 138.49 C19.05 138.6 17.91 138.57 16.84 138.42 C16.84 138.42
+							 16.77 138.41 16.71 138.4 C16.57 138.73 15.03 142.29 15.03 142.29 L7.71 139.12 C7.71 139.12 9.29 135.45
+							 9.43 135.13 C9.38 135.09 9.33 135.05 9.33 135.05 C8.5 134.34 7.82 133.66 7.25 132.94 C7.25 132.94 7.08
+							 132.7 6.96 132.54 C6.62 132.67 2.9 134.12 2.9 134.12 L0 126.69 C0 126.69 3.99 125.13 3.99 125.12 C3.99
+							 125.12 4.06 125.1 4.11 125.08 C4.09 124.89 4.07 124.61 4.07 124.61 L4 123.62 C4 123.62 4.07 122.37 4.09
+							 122.08 C3.77 121.96 0.03 120.46 0.03 120.46 L3 113.04 C3 113.04 6.71 114.53 7.04 114.66 C7.07 114.61
+							 7.12 114.56 7.12 114.56 C7.84 113.61 8.6 112.81 9.42 112.13 C9.42 112.13 9.47 112.09 9.52 112.05 C9.38
+							 111.73 7.85 108.1 7.85 108.1 L15.2 104.99 C15.2 104.99 16.69 108.52 16.83 108.84 C16.89 108.84 16.96
+							 108.83 16.96 108.83 C18.13 108.67 19.29 108.65 20.42 108.76 C20.42 108.76 20.48 108.77 20.55 108.77
+							 C20.68 108.45 22.11 104.97 22.11 104.97 L29.48 108 C29.48 108 28.08 111.42 27.95 111.75 C28 111.78 28.05
+							 111.83 28.05 111.83 C29.09 112.63 29.93 113.44 30.61 114.29 C30.61 114.29 30.66 114.36 30.71 114.42
+							 C31.04 114.29 34.38 112.91 34.38 112.91 L37.42 120.29 C37.42 120.29 34.08 121.66 33.76 121.8 C33.77
+							 121.86 33.77 121.93 33.77 121.93 C33.85 122.57 33.88 123.11 33.88 123.61 C33.88 124.19 33.84 124.8 33.74
+							 125.53 ZM22.08 127.56 C24.25 125.83 24.6 122.66 22.87 120.49 C21.13 118.33 17.97 117.97 15.81 119.71
+							 C13.64 121.44 13.29 124.6 15.02 126.77 C16.75 128.94 19.91 129.29 22.08 127.56 ZM19.76 116.31 C21.71
+							 116.53 23.47 117.5 24.69 119.03 C27.23 122.21 26.71 126.85 23.54 129.38 C22.01 130.61 20.08 131.17 18.13
+							 130.95 C16.17 130.74 14.42 129.77 13.19 128.23 C12.11 126.88 11.59 125.25 11.59 123.64 C11.59 121.48
+							 12.53 119.33 14.35 117.88 C15.88 116.65 17.8 116.09 19.76 116.31 Z" class="st6"/>
+			</g>
+			<g id="shape60-73" v:mID="60" v:groupContext="shape" transform="translate(21.1384,-27.5771)">
+				<title>Quadrato</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape61-75" v:mID="61" v:groupContext="shape" transform="translate(28.4275,-21.1384)">
+				<title>Quadrato.31</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape62-77" v:mID="62" v:groupContext="shape" transform="translate(27.4961,-9.47582)">
+				<title>Quadrato.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape63-79" v:mID="63" v:groupContext="shape" transform="translate(21.1384,-2.4297)">
+				<title>Quadrato.33</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape64-81" v:mID="64" v:groupContext="shape" transform="translate(9.07087,-2.83465)">
+				<title>Quadrato.34</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape65-83" v:mID="65" v:groupContext="shape" transform="translate(3.28009,-10.5692)">
+				<title>Quadrato.35</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape66-85" v:mID="66" v:groupContext="shape" transform="translate(3.28009,-21.1384)">
+				<title>Quadrato.36</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape67-87" v:mID="67" v:groupContext="shape" transform="translate(9.71879,-27.5771)">
+				<title>Quadrato.37</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape68-89" v:mID="68" v:groupContext="shape" transform="translate(9.71879,-23.5681)">
+				<title>Quadrato.38</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape69-91" v:mID="69" v:groupContext="shape" transform="translate(6.49944,-21.1384)">
+				<title>Quadrato.39</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape70-93" v:mID="70" v:groupContext="shape" transform="translate(4.88977,-17.0079)">
+				<title>Quadrato.40</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape71-95" v:mID="71" v:groupContext="shape" transform="translate(4.88977,-12.9989)">
+				<title>Quadrato.41</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape72-97" v:mID="72" v:groupContext="shape" transform="translate(4.88977,-12.9989)">
+				<title>Quadrato.42</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape73-99" v:mID="73" v:groupContext="shape" transform="translate(7.28909,-17.0079)">
+				<title>Quadrato.43</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape74-101" v:mID="74" v:groupContext="shape" transform="translate(7.28909,-12.9989)">
+				<title>Quadrato.44</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape75-103" v:mID="75" v:groupContext="shape" transform="translate(7.28909,-10.5692)">
+				<title>Quadrato.45</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape76-105" v:mID="76" v:groupContext="shape" transform="translate(9.71879,-6.56018)">
+				<title>Quadrato.46</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape77-107" v:mID="77" v:groupContext="shape" transform="translate(13.8493,-6.56018)">
+				<title>Quadrato.47</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape78-109" v:mID="78" v:groupContext="shape" transform="translate(15.4286,-6.35771)">
+				<title>Quadrato.48</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape79-111" v:mID="79" v:groupContext="shape" transform="translate(21.1384,-6.56018)">
+				<title>Quadrato.49</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape80-113" v:mID="80" v:groupContext="shape" transform="translate(23.5681,-10.5692)">
+				<title>Quadrato.50</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape81-115" v:mID="81" v:groupContext="shape" transform="translate(23.7705,-14.4567)">
+				<title>Quadrato.51</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape82-117" v:mID="82" v:groupContext="shape" transform="translate(26.4837,-15.0641)">
+				<title>Quadrato.52</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape83-119" v:mID="83" v:groupContext="shape" transform="translate(24.216,-21.1384)">
+				<title>Quadrato.53</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape84-121" v:mID="84" v:groupContext="shape" transform="translate(21.1384,-23.5681)">
+				<title>Quadrato.54</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape85-123" v:mID="85" v:groupContext="shape" transform="translate(17.8583,-26.7267)">
+				<title>Quadrato.55</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape86-125" v:mID="86" v:groupContext="shape" transform="translate(15.4286,-24.7829)">
+				<title>Quadrato.56</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+		</g>
+		<g id="group87-127" transform="translate(249.751,-68.6899)" v:mID="87" v:groupContext="group">
+			<title>Foglio.87</title>
+			<g id="shape88-128" v:mID="88" v:groupContext="shape">
+				<title>Configura.161</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Icon)"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M34.32 128.45 C33.59 128.14 31.28 127.16 31.28 127.16 L31.43 125.23 L31.55 123.61 L31.34 120.52 L32.87 119.63
+							 C32.87 119.63 33.64 119.32 34.37 119.02 C33.85 117.75 33.63 117.23 33.11 115.96 C32.38 116.26 29.99
+							 117.25 29.99 117.25 L28.8 115.76 C28.22 115.04 27.51 114.36 26.62 113.67 L25.22 112.58 L25.79 110.86
+							 C25.79 110.86 26.12 110.05 26.44 109.28 C25.17 108.75 24.65 108.54 23.38 108.02 C23.05 108.82 22.05
+							 111.27 22.05 111.27 L20.19 111.09 C19.24 110.99 18.26 111.01 17.27 111.15 L15.5 111.38 L14.67 109.76
+							 C14.67 109.76 14.31 108.9 13.96 108.06 C12.7 108.59 12.18 108.81 10.92 109.34 C11.29 110.23 12.35 112.74
+							 12.35 112.74 L10.91 113.93 C10.23 114.5 9.6 115.17 8.97 115.98 L7.89 117.39 L6.16 116.83 C6.16 116.83
+							 5.23 116.46 4.3 116.08 C3.79 117.36 3.58 117.88 3.07 119.16 C4.01 119.53 6.52 120.54 6.52 120.54 C6.52
+							 120.54 6.36 123.38 6.35 123.61 C6.36 123.81 6.4 124.45 6.4 124.46 C6.4 124.46 6.55 125.96 6.55 125.96
+							 L5.65 126.78 C5.37 127.06 5.27 127.13 3.03 128.01 C3.52 129.29 3.73 129.82 4.23 131.1 C5.16 130.73 7.78
+							 129.71 7.78 129.71 L9.14 131.56 C9.55 132.08 10.13 132.66 10.84 133.26 L12.17 134.38 L11.58 136.04 C11.58
+							 136.04 11.18 136.98 10.78 137.9 C12.04 138.45 12.55 138.67 13.81 139.21 C14.18 138.36 15.27 135.84 15.27
+							 135.84 L17.17 136.1 C18.07 136.23 19.03 136.25 20.04 136.16 L21.77 136.01 L22.54 137.61 C22.54 137.61
+							 22.89 138.49 23.23 139.34 C24.5 138.83 25.03 138.63 26.3 138.12 C25.98 137.33 24.97 134.81 24.97 134.81
+							 L26.88 133.44 C27.42 133.01 28.03 132.38 28.67 131.61 L29.78 130.26 L31.47 130.84 C31.47 130.84 32.27
+							 131.17 33.04 131.5 C33.57 130.23 33.79 129.71 34.32 128.45 ZM33.74 125.53 C33.74 125.53 33.74 125.6
+							 33.73 125.66 C34.05 125.8 37.38 127.2 37.38 127.2 L34.28 134.56 C34.28 134.56 30.88 133.12 30.56 132.99
+							 C30.52 133.04 30.48 133.09 30.48 133.09 C29.74 133.99 29.01 134.72 28.24 135.34 C28.24 135.34 27.99
+							 135.52 27.83 135.64 C27.96 135.98 29.34 139.42 29.34 139.42 L21.93 142.39 C21.93 142.39 20.5 138.8 20.37
+							 138.48 C20.31 138.49 20.24 138.49 20.24 138.49 C19.05 138.6 17.91 138.57 16.84 138.42 C16.84 138.42
+							 16.77 138.41 16.71 138.4 C16.57 138.73 15.03 142.29 15.03 142.29 L7.71 139.12 C7.71 139.12 9.29 135.45
+							 9.43 135.13 C9.38 135.09 9.33 135.05 9.33 135.05 C8.5 134.34 7.82 133.66 7.25 132.94 C7.25 132.94 7.08
+							 132.7 6.96 132.54 C6.62 132.67 2.9 134.12 2.9 134.12 L0 126.69 C0 126.69 3.99 125.13 3.99 125.12 C3.99
+							 125.12 4.06 125.1 4.11 125.08 C4.09 124.89 4.07 124.61 4.07 124.61 L4 123.62 C4 123.62 4.07 122.37 4.09
+							 122.08 C3.77 121.96 0.03 120.46 0.03 120.46 L3 113.04 C3 113.04 6.71 114.53 7.04 114.66 C7.07 114.61
+							 7.12 114.56 7.12 114.56 C7.84 113.61 8.6 112.81 9.42 112.13 C9.42 112.13 9.47 112.09 9.52 112.05 C9.38
+							 111.73 7.85 108.1 7.85 108.1 L15.2 104.99 C15.2 104.99 16.69 108.52 16.83 108.84 C16.89 108.84 16.96
+							 108.83 16.96 108.83 C18.13 108.67 19.29 108.65 20.42 108.76 C20.42 108.76 20.48 108.77 20.55 108.77
+							 C20.68 108.45 22.11 104.97 22.11 104.97 L29.48 108 C29.48 108 28.08 111.42 27.95 111.75 C28 111.78 28.05
+							 111.83 28.05 111.83 C29.09 112.63 29.93 113.44 30.61 114.29 C30.61 114.29 30.66 114.36 30.71 114.42
+							 C31.04 114.29 34.38 112.91 34.38 112.91 L37.42 120.29 C37.42 120.29 34.08 121.66 33.76 121.8 C33.77
+							 121.86 33.77 121.93 33.77 121.93 C33.85 122.57 33.88 123.11 33.88 123.61 C33.88 124.19 33.84 124.8 33.74
+							 125.53 ZM22.08 127.56 C24.25 125.83 24.6 122.66 22.87 120.49 C21.13 118.33 17.97 117.97 15.81 119.71
+							 C13.64 121.44 13.29 124.6 15.02 126.77 C16.75 128.94 19.91 129.29 22.08 127.56 ZM19.76 116.31 C21.71
+							 116.53 23.47 117.5 24.69 119.03 C27.23 122.21 26.71 126.85 23.54 129.38 C22.01 130.61 20.08 131.17 18.13
+							 130.95 C16.17 130.74 14.42 129.77 13.19 128.23 C12.11 126.88 11.59 125.25 11.59 123.64 C11.59 121.48
+							 12.53 119.33 14.35 117.88 C15.88 116.65 17.8 116.09 19.76 116.31 Z" class="st6"/>
+			</g>
+			<g id="shape89-130" v:mID="89" v:groupContext="shape" transform="translate(21.1384,-27.5771)">
+				<title>Quadrato</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape90-132" v:mID="90" v:groupContext="shape" transform="translate(28.4275,-21.1384)">
+				<title>Quadrato.31</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape91-134" v:mID="91" v:groupContext="shape" transform="translate(27.4961,-9.47582)">
+				<title>Quadrato.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape92-136" v:mID="92" v:groupContext="shape" transform="translate(21.1384,-2.4297)">
+				<title>Quadrato.33</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape93-138" v:mID="93" v:groupContext="shape" transform="translate(9.07087,-2.83465)">
+				<title>Quadrato.34</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape94-140" v:mID="94" v:groupContext="shape" transform="translate(3.28009,-10.5692)">
+				<title>Quadrato.35</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape95-142" v:mID="95" v:groupContext="shape" transform="translate(3.28009,-21.1384)">
+				<title>Quadrato.36</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape96-144" v:mID="96" v:groupContext="shape" transform="translate(9.71879,-27.5771)">
+				<title>Quadrato.37</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape97-146" v:mID="97" v:groupContext="shape" transform="translate(9.71879,-23.5681)">
+				<title>Quadrato.38</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape98-148" v:mID="98" v:groupContext="shape" transform="translate(6.49944,-21.1384)">
+				<title>Quadrato.39</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape99-150" v:mID="99" v:groupContext="shape" transform="translate(4.88977,-17.0079)">
+				<title>Quadrato.40</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape100-152" v:mID="100" v:groupContext="shape" transform="translate(4.88977,-12.9989)">
+				<title>Quadrato.41</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape101-154" v:mID="101" v:groupContext="shape" transform="translate(4.88977,-12.9989)">
+				<title>Quadrato.42</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape102-156" v:mID="102" v:groupContext="shape" transform="translate(7.28909,-17.0079)">
+				<title>Quadrato.43</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape103-158" v:mID="103" v:groupContext="shape" transform="translate(7.28909,-12.9989)">
+				<title>Quadrato.44</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape104-160" v:mID="104" v:groupContext="shape" transform="translate(7.28909,-10.5692)">
+				<title>Quadrato.45</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape105-162" v:mID="105" v:groupContext="shape" transform="translate(9.71879,-6.56018)">
+				<title>Quadrato.46</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape106-164" v:mID="106" v:groupContext="shape" transform="translate(13.8493,-6.56018)">
+				<title>Quadrato.47</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape107-166" v:mID="107" v:groupContext="shape" transform="translate(15.4286,-6.23623)">
+				<title>Quadrato.48</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape108-168" v:mID="108" v:groupContext="shape" transform="translate(21.1384,-6.56018)">
+				<title>Quadrato.49</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape109-170" v:mID="109" v:groupContext="shape" transform="translate(23.5681,-10.5692)">
+				<title>Quadrato.50</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape110-172" v:mID="110" v:groupContext="shape" transform="translate(23.7705,-14.4567)">
+				<title>Quadrato.51</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape111-174" v:mID="111" v:groupContext="shape" transform="translate(26.4837,-15.0641)">
+				<title>Quadrato.52</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape112-176" v:mID="112" v:groupContext="shape" transform="translate(24.216,-21.1384)">
+				<title>Quadrato.53</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape113-178" v:mID="113" v:groupContext="shape" transform="translate(21.1384,-23.5681)">
+				<title>Quadrato.54</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape114-180" v:mID="114" v:groupContext="shape" transform="translate(17.8583,-26.7267)">
+				<title>Quadrato.55</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+			<g id="shape115-182" v:mID="115" v:groupContext="shape" transform="translate(15.4286,-24.7829)">
+				<title>Quadrato.56</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="135.826" width="6.56018" height="6.56018" class="st7"/>
+			</g>
+		</g>
+		<g id="shape116-184" v:mID="116" v:groupContext="shape" v:layerMember="0" transform="translate(43.4034,-41.7042)">
+			<title>Connettore dinamico.116</title>
+			<path d="M0 149.01 C11.06 160.01 24.97 169.8 41.81 170.08 C58.2 170.35 77.37 161.6 86.72 149.93" class="st3"/>
+		</g>
+		<g id="shape118-187" v:mID="118" v:groupContext="shape" v:layerMember="0" transform="translate(156.84,-57.6639)">
+			<title>Connettore dinamico.118</title>
+			<path d="M0 142.39 C9.29 174.73 37.25 185.44 57.94 186.05 C78.21 186.65 91.49 177.56 104.33 161.02" class="st3"/>
+		</g>
+		<g id="shape119-190" v:mID="119" v:groupContext="shape" v:layerMember="0" transform="translate(171.504,-113.931)">
+			<title>Connettore dinamico.119</title>
+			<path d="M0 149.34 C5.96 140.29 24.79 129.85 42.22 128.99 C60.27 128.09 76.83 137.45 85.91 149.61" class="st3"/>
+		</g>
+	</g>
+</svg>

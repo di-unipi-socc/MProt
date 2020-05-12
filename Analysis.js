@@ -208,7 +208,7 @@ var Analysis;
         var visited = {};
         var toBeVisited = [application];
         while (toBeVisited.length > 0) {
-            var app = toBeVisited[0];
+            var app = toBeVisited.pop();
             if (!(app.globalState in visited)) {
                 visited[app.globalState] = app;
                 for (var nodeId in app.nodes)

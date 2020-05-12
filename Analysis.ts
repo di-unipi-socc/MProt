@@ -264,6 +264,7 @@ module Analysis {
 		let toBeVisited: Application[] = [ application ];
 		
 		while(toBeVisited.length > 0) {
+			console.log("To Be Visited:" + toBeVisited.length);
 			let app = toBeVisited.pop();
 			
 			if (!(app.globalState in visited)) {

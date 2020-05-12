@@ -206,7 +206,10 @@ var Analysis;
     Analysis.Application = Application;
     function reachable(application) {
         var visited = {};
-        var toBeVisited = [application];
+        var addedForVisit = {};
+        var toBeVisited = [];
+        toBeVisited.push(application);
+        addedForVisit[application.globalState] = true;
         while (toBeVisited.length > 0) {
             console.log("To Be Visited:" + toBeVisited.length);
             var app = toBeVisited.pop();
@@ -214,15 +217,30 @@ var Analysis;
                 visited[app.globalState] = app;
                 for (var nodeId in app.nodes)
                     for (var opId in app.nodes[nodeId].ops)
-                        if (app.canPerformOp(nodeId, opId))
-                            toBeVisited.push(app.performOp(nodeId, opId));
+                        if (app.canPerformOp(nodeId, opId)) {
+                            var nextApp = app.performOp(nodeId, opId);
+                            if (!(nextApp.globalState in addedForVisit)) {
+                                toBeVisited.push(nextApp);
+                                addedForVisit[nextApp.globalState] = true;
+                            }
+                        }
                 for (var nodeId in app.nodes)
                     for (var req in app.nodes[nodeId].reqs)
-                        if (app.canHandleFault(nodeId, req))
-                            toBeVisited.push(app.handleFault(nodeId, req));
+                        if (app.canHandleFault(nodeId, req)) {
+                            var nextApp = app.handleFault(nodeId, req);
+                            if (!(nextApp.globalState in addedForVisit)) {
+                                toBeVisited.push(nextApp);
+                                addedForVisit[nextApp.globalState] = true;
+                            }
+                        }
                 for (var nodeId in app.nodes)
-                    if (app.canHardReset(nodeId))
-                        toBeVisited.push(app.doHardReset(nodeId));
+                    if (app.canHardReset(nodeId)) {
+                        var nextApp = app.doHardReset(nodeId);
+                        if (!(nextApp.globalState in addedForVisit)) {
+                            toBeVisited.push(nextApp);
+                            addedForVisit[nextApp.globalState] = true;
+                        }
+                    }
             }
         }
         /*

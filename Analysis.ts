@@ -261,6 +261,31 @@ module Analysis {
 
     export function reachable(application: Application) {
         const visited: Utils.Map<Application> = {};
+		let toBeVisited: Application[] = [ application ];
+		
+		while(toBeVisited.length > 0) {
+			let app = toBeVisited[0];
+			
+			if (!(app.globalState in visited)) {
+			
+				visited[app.globalState] = app;
+				
+				for (const nodeId in app.nodes)
+					for (const opId in app.nodes[nodeId].ops)
+						if (app.canPerformOp(nodeId, opId))
+							toBeVisited.push(app.performOp(nodeId, opId));
+
+				for (const nodeId in app.nodes)
+					for (const req in app.nodes[nodeId].reqs)
+						if (app.canHandleFault(nodeId, req))
+							toBeVisited.push(app.handleFault(nodeId, req));
+
+				for (const nodeId in app.nodes)
+					if (app.canHardReset(nodeId))
+						toBeVisited.push(app.doHardReset(nodeId));		
+			}				
+		}
+		/*
         const visit = function(app: Application) {
             if (app.globalState in visited)
                 return;
@@ -282,6 +307,7 @@ module Analysis {
                     visit(app.doHardReset(nodeId));
         };
         visit(application);
+		*/
         return visited;
     }
 

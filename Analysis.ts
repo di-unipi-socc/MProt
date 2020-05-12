@@ -305,29 +305,6 @@ module Analysis {
 					}
 			}				
 		}
-		/*
-        const visit = function(app: Application) {
-            if (app.globalState in visited)
-                return;
-
-            visited[app.globalState] = app;
-
-            for (const nodeId in app.nodes)
-                for (const opId in app.nodes[nodeId].ops)
-                    if (app.canPerformOp(nodeId, opId))
-                        visit(app.performOp(nodeId, opId));
-
-            for (const nodeId in app.nodes)
-                for (const req in app.nodes[nodeId].reqs)
-                    if (app.canHandleFault(nodeId, req))
-                        visit(app.handleFault(nodeId, req));
-
-            for (const nodeId in app.nodes)
-                if (app.canHardReset(nodeId))
-                    visit(app.doHardReset(nodeId));
-        };
-        visit(application);
-		*/
         return visited;
     }
 

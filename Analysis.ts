@@ -261,27 +261,50 @@ module Analysis {
 
     export function reachable(application: Application) {
         const visited: Utils.Map<Application> = {};
-        const visit = function(app: Application) {
-            if (app.globalState in visited)
-                return;
+		const addedForVisit: Utils.Map<boolean> = {};
+		let toBeVisited: Application[] = [];
+		
+		toBeVisited.push(application);
+		addedForVisit[application.globalState] = true;
+		
+		while(toBeVisited.length > 0) {
+			console.log("To Be Visited:" + toBeVisited.length)
+			let app = toBeVisited.pop();
+			
+			if (!(app.globalState in visited)) {
+			
+				visited[app.globalState] = app;
+				
+				for (const nodeId in app.nodes)
+					for (const opId in app.nodes[nodeId].ops)
+						if (app.canPerformOp(nodeId, opId)) {
+							let nextApp: Application = app.performOp(nodeId, opId);
+							if (!(nextApp.globalState in addedForVisit)) {
+								toBeVisited.push(nextApp);
+								addedForVisit[nextApp.globalState] = true;
+							}
+						}
 
-            visited[app.globalState] = app;
+				for (const nodeId in app.nodes)
+					for (const req in app.nodes[nodeId].reqs)
+						if (app.canHandleFault(nodeId, req)) {
+							let nextApp: Application = app.handleFault(nodeId, req);
+							if (!(nextApp.globalState in addedForVisit)) {
+								toBeVisited.push(nextApp);
+								addedForVisit[nextApp.globalState] = true;
+							}
+						}
 
-            for (const nodeId in app.nodes)
-                for (const opId in app.nodes[nodeId].ops)
-                    if (app.canPerformOp(nodeId, opId))
-                        visit(app.performOp(nodeId, opId));
-
-            for (const nodeId in app.nodes)
-                for (const req in app.nodes[nodeId].reqs)
-                    if (app.canHandleFault(nodeId, req))
-                        visit(app.handleFault(nodeId, req));
-
-            for (const nodeId in app.nodes)
-                if (app.canHardReset(nodeId))
-                    visit(app.doHardReset(nodeId));
-        };
-        visit(application);
+				for (const nodeId in app.nodes)
+					if (app.canHardReset(nodeId)) {
+						let nextApp: Application = app.doHardReset(nodeId);
+						if (!(nextApp.globalState in addedForVisit)) {
+							toBeVisited.push(nextApp);
+							addedForVisit[nextApp.globalState] = true;
+						}
+					}
+			}				
+		}
         return visited;
     }
 

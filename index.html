@@ -39,11 +39,8 @@
     <!--JS Inline-->
     <script type="text/javascript">
         function qualifyURL(url) {
-            var img = document.createElement('img');
-	        img.src = url; // set string url
-	        url = img.src; // get qualified url
-	        img.src = null; // no server request
-	        return url;
+            var absolute = window.location.href;
+	        return absolute.substr(0, absolute.lastIndexOf("\/")+1) + url;
         }
         zip.workerScriptsPath = qualifyURL("lib/z-worker.js").slice(0, -("z-worker.js".length));
         var barrel = null;

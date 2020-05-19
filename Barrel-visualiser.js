@@ -142,7 +142,10 @@ Visualiser = React.createClass({
             }));
 
             // Create a new environment (see createGraph function definition)
-            var env = createGraph(parentDiv, 400, 600);
+            var graphWidth = 940;
+            var containers = document.getElementsByClassName("container");
+            if (containers.length) graphWidth = containers[0].offsetWidth - 30;
+            var env = createGraph(parentDiv, graphWidth, 600);
 
             // Create a cell for each node
             for (var n in nodes) {

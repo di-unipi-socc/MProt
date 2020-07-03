@@ -4,7 +4,7 @@
 
 
 ## What is Barrel?
-Barrel is a web-based application that permits ediiting and analysing fault-aware management protocols in composite applications specified in [TOSCA](http://docs.oasis-open.org/tosca/TOSCA/v1.0/TOSCA-v1.0.html).
+Barrel is a web-based application that permits editing and analysing fault-aware management protocols in composite applications specified in [TOSCA](http://docs.oasis-open.org/tosca/TOSCA/v1.0/TOSCA-v1.0.html).
 
 A running instance of Barrel is available at [http://di-unipi-socc.github.io/barrel/](http://di-unipi-socc.github.io/barrel/). 
 
@@ -44,8 +44,8 @@ They can be found in the [examples](https://github.com/di-unipi-socc/barrel/tree
 ### Visualising applications
 
 The __Visualise__ pane:
-* graphically displays the application topology (on the left hand side of the pane), and
-* provides further information about each application component in a table (one the right hand side of the pane). 
+* graphically displays the application topology (on the left-hand side of the pane), and
+* provides further information about each application component in a table (one the right-hand side of the pane). 
 
 ### Editing applications
 
@@ -58,4 +58,4 @@ Once a node type is selected, its fault-aware management protocol is displayed, 
 The __Analyse__ pane permits interactively analysing the fault-aware management behaviour of the composite application in the imported CSAR.
 * The __Option__ section permits configuring the analysis context (e.g., by enabling/disabling hard recovery) 
 * The __Simulator__ section contains a table that permits interactively simulating the behaviour of the composite application. More precisely, the __Simulator__ allows to simulate sequences of operation/fault-handling transitions, hence permitting to determine their effects on the whole application. 
-* The __Planner__ permits specifying two different configurations of the imported composite  application (*source global state* and *target global state*), and it displays the sequence of operation/fault-handling transitions that leads from the *source global state* to the *target global state*.
+* The __Planner__ permits specifying two different configurations of the imported composite application (*source global state* and *target global state*), and it displays the sequence of operation/fault-handling transitions that leads from the *source global state* to the *target global state*.
